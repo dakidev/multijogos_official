@@ -1,3 +1,6 @@
+ports:
+  - port: 3000
+    onOpen: open-preview
 tasks:
   - init: echo "Replace me with a build script for the project."
     command: echo "Replace me with something that should run on every start, or just
